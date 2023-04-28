@@ -243,7 +243,7 @@ I would like to thank  my learning teammates and the Microsoft staff  to support
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](LICENSE.md) licensed.
 
 
 
