@@ -1,33 +1,10 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="logo.png" alt="logo" width="140"  height="auto" />
+  
+  <img src="./images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>PERSONAL PORTFOLIO PROJECT</b></h3>
@@ -132,13 +109,7 @@ To run this project  you need the following tools:
 - [Git and GitHub ]
 - [Nodejs ]
 
-<!--
-Example command:
 
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -151,14 +122,13 @@ Clone this repository to your desired folder:
 
 ### Setup
 
-<!--
-Example commands:
+
 
 ```sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
---->
+
 
 ### Install
 
@@ -182,13 +152,7 @@ Stylelint:
 
 To run the project, execute the following command:
 
-<!--
-Example command:
 
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
@@ -209,13 +173,6 @@ To test the Webhint:
 
 You can deploy this project usinr your local enviroment.
 
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
