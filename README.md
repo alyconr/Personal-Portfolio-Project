@@ -115,8 +115,8 @@ To run this project  you need the following tools:
 
 Clone this repository to your desired folder:
 ```sh
- cd Hello-Microverse-Project
- git clone https://github.com/alyconr/Hello-Microverse-Project.git
+ cd Personal-Portfolio-Project
+ git clone https://github.com/alyconr/Personal-Portfolio-Project
 ```
 
 
@@ -126,7 +126,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:myaccount/Personal-Portfolio-Project.git
 ```
 
 
