@@ -38,9 +38,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [HELLO MICROVERSE PROJECT] <a name="about-project"></a>
+# 📖 [PERSONAL PORTFOLIO PROJECT] <a name="about-project"></a>
 
-  **[Hello Microverse Project]** This is a personal portfolio project where I have implemented the main features of the project using images and backgrounds from Figma template, I have used  the  main concepts of flexbox layout to design a flexbox responsive layout structure acording to the methodology 'Mobil first'.
+  **[Personal Portfolio Project]** This is a personal portfolio project where I have implemented the main features of the project using images and backgrounds from Figma template, I have used  the  main concepts of flexbox layout to design a flexbox responsive layout structure acording to the methodology 'Mobil first'.
 
 ## 🛠 Built With <a name="built-with"></a>
 <p> This project was built using:
