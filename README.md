@@ -80,8 +80,10 @@
 
 - **[HTML & CSS Best practices]**
 - **[Header Section]**
+- **[Works Section]**
+- **[About Section]**
 - **[Headline Section ]**
-- **[Flexbox to  Design flexible responsive layout structure]**
+- **[Flexbox and Grid to  Design flexible responsive layout structure]**
 - **[Mobil First Design ]**
 - **[Follow GitHub Flow]**
 - **[Use Linters]**
