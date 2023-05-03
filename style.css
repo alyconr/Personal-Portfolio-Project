@@ -16,10 +16,11 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0 auto;
   width: 375px;
-  background-color: gray;
+  background-color: #676161;
 }
 
 /* ------main------ */
+
 #header {
   display: flex;
   flex-direction: column;
@@ -215,6 +216,15 @@ li {
 
 /* ------About------ */
 
+.about-fonts {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 52px;
+  color: #172b4d;
+}
+
 #about {
   display: flex;
   flex-direction: column;
@@ -288,14 +298,6 @@ li {
   padding: 12px;
 }
 
-.lan-styles {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-}
-
 .final-stack {
   display: flex;
   flex-direction: column;
@@ -316,7 +318,7 @@ li {
   margin: 0 48px 0 12px;
 }
 
-h2 {
+h5 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -324,7 +326,7 @@ h2 {
   line-height: 24px;
 }
 
-h3 {
+h4 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
