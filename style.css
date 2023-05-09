@@ -473,4 +473,11 @@ textarea {
   letter-spacing: 0.03em;
 }
 
+.border-line{
+border-bottom: 8px solid #0d151e;
+margin: 32px 120px 12px 121px;
+border-radius: 10px;
+
+}
+
 /* ------media queries------ */
