@@ -210,7 +210,7 @@ li {
 }
 
 .btn:hover {
-  background-color: #396df2;
+  background-color: #6070ff;
   color: #fff;
 }
 
@@ -349,5 +349,128 @@ h4 {
 }
 
 .frame-skills {
-  margin-bottom: 48px;
+  margin-bottom: 100px;
 }
+
+/* ------Contact Section------ */
+
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  background: url(/images/contact\ form\ shapes-mobile2.svg);
+  background-repeat: no-repeat;
+  background-position-y: 21px;
+  background-position-x: 152px;
+  border-radius: 60px 0 0 0;
+  background-color: #6070ff;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 103px 24px 0 24px;
+}
+
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 52px;
+  margin-bottom: 0;
+  gap: 20px;
+}
+
+textarea {
+  resize: none;
+  font-family: 'Popins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
+.types {
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.form-group input {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  width: 100%;
+  height: 48px;
+  margin-bottom: 12px;
+  padding: 16px;
+}
+
+.form-group textarea {
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  height: 140px;
+  margin-bottom: 4px;
+  padding: 20px;
+}
+
+.form-group .btn-input {
+  background-color: #f4f4f5;
+  color: #6070ff;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+  width: 50%;
+  margin: 0 auto;
+  margin-right: 50%;
+  justify-content: flex-start;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.form-group .btn-input:hover {
+  background-color: #6070ff;
+  color: #fff;
+  letter-spacing: 0.03em;
+}
+
+.form-group .btn-input:active {
+  background-color: #2230d2;
+  color: #fff;
+  letter-spacing: 0.03em;
+}
+
+.form-group .btn-input:focus {
+  background-color: #13141a;
+  color: #fff;
+  letter-spacing: 0.03em;
+}
+
+/* ------media queries------ */
