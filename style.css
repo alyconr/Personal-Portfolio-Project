@@ -209,9 +209,24 @@ li {
   margin-top: 12px;
 }
 
+.btn:link {
+  color: #6070ff;
+  background-color: #fff;
+}
+
 .btn:hover {
   background-color: #396df2;
   color: #fff;
+}
+
+.btn:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.btn:disabled {
+  background-color: #fff;
+  color: #5e6c84;
 }
 
 /* ------About------ */
@@ -269,9 +284,24 @@ li {
   display: inline-block;
 }
 
+.btn-resume:link {
+  color: #5e6c84;
+  background-color: #fff;
+}
+
 .btn-resume:hover {
   background-color: #396df2;
   color: #fff;
+}
+
+.btn-resume:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.btn-resume:disabled {
+  background-color: #fff;
+  color: #5e6c84;
 }
 
 .container-end {
@@ -349,5 +379,135 @@ h4 {
 }
 
 .frame-skills {
-  margin-bottom: 48px;
+  margin-bottom: 17.2rem;
+}
+
+/* ------Contact Section------ */
+
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  background: url(/images/contact\ form\ shapes-mobile2.svg);
+  background-repeat: no-repeat;
+  background-position-y: 21px;
+  background-position-x: 152px;
+  border-radius: 60px 0 0 0;
+  background-color: #6070ff;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 103px 24px 0 24px;
+}
+
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 52px;
+  margin-bottom: 0;
+  gap: 20px;
+}
+
+textarea {
+  resize: none;
+  font-family: 'Popins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
+.types {
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.form-group input {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  width: 100%;
+  height: 48px;
+  margin-bottom: 12px;
+  padding: 16px;
+}
+
+.form-group textarea {
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  height: 140px;
+  margin-bottom: 4px;
+  padding: 20px;
+}
+
+.form-group .btn-input {
+  background-color: #f4f4f5;
+  color: #6070ff;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.25rem;
+  width: 40.85%;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.5rem;
+}
+
+.form-group .btn-input:link {
+  background-color: #fff;
+  color: #6070ff;
+}
+
+.form-group .btn-input:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.form-group .btn-input:active {
+  background-color: #2230d2;
+  color: #fff;
+  border: none;
+}
+
+.form-group .btn-input:disabled {
+  background-color: #fff;
+  color: #5c6c84;
+}
+
+.border-line {
+  border-bottom: 0.5rem solid #0d151e;
+  width: 40.85%;
+  margin: 1.5rem auto 0.75rem auto;
+  border-radius: 0.5rem;
+  display: inline-block;
 }
