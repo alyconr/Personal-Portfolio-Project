@@ -83,6 +83,7 @@
 - **[Works Section]**
 - **[About Section]**
 - **[Headline Section ]**
+- **[Contact Form Section]**
 - **[Flexbox and Grid to  Design flexible responsive layout structure]**
 - **[Mobil First Design ]**
 - **[Follow GitHub Flow]**
@@ -200,6 +201,8 @@ JEYSSON CONTRERAS
 
 - [ ] **[Toolbar]**
 - [ ] **[Headline]**
+- [ ] **[About-section]**
+- [ ] **[Contact-form]**
 - [ ] **[Mobile first]**
 
 
