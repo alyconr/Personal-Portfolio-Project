@@ -209,9 +209,24 @@ li {
   margin-top: 12px;
 }
 
+.btn:link {
+  color: #6070ff;
+  background-color: #fff;
+}
+
 .btn:hover {
-  background-color: #6070ff;
+  background-color: #396df2;
   color: #fff;
+}
+
+.btn:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.btn:disabled {
+  background-color: #fff;
+  color: #5e6c84;
 }
 
 /* ------About------ */
@@ -269,9 +284,24 @@ li {
   display: inline-block;
 }
 
+.btn-resume:link {
+  color: #5e6c84;
+  background-color: #fff;
+}
+
 .btn-resume:hover {
   background-color: #396df2;
   color: #fff;
+}
+
+.btn-resume:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.btn-resume:disabled {
+  background-color: #fff;
+  color: #5e6c84;
 }
 
 .container-end {
@@ -349,7 +379,7 @@ h4 {
 }
 
 .frame-skills {
-  margin-bottom: 100px;
+  margin-bottom: 17.2rem;
 }
 
 /* ------Contact Section------ */
@@ -443,41 +473,41 @@ textarea {
   color: #6070ff;
   text-align: center;
   text-decoration: none;
-  padding: 4px;
-  width: 50%;
-  margin: 0 auto;
-  margin-right: 50%;
-  justify-content: flex-start;
+  padding: 0.25rem;
+  width: 40.85%;
+  display: block;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 1.5rem;
+}
+
+.form-group .btn-input:link {
+  background-color: #fff;
+  color: #6070ff;
 }
 
 .form-group .btn-input:hover {
   background-color: #6070ff;
   color: #fff;
-  letter-spacing: 0.03em;
 }
 
 .form-group .btn-input:active {
   background-color: #2230d2;
   color: #fff;
-  letter-spacing: 0.03em;
+  border: none;
 }
 
-.form-group .btn-input:focus {
-  background-color: #13141a;
-  color: #fff;
-  letter-spacing: 0.03em;
+.form-group .btn-input:disabled {
+  background-color: #fff;
+  color: #5c6c84;
 }
 
-.border-line{
-border-bottom: 8px solid #0d151e;
-margin: 32px 120px 12px 121px;
-border-radius: 10px;
-
+.border-line {
+  border-bottom: 0.5rem solid #0d151e;
+  width: 40.85%;
+  margin: 1.5rem auto 0.75rem auto;
+  border-radius: 0.5rem;
+  display: inline-block;
 }
-
-/* ------media queries------ */
