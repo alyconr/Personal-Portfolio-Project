@@ -507,6 +507,7 @@ textarea {
   font-weight: 500;
   font-size: 17px;
   line-height: 1.5rem;
+  ;
 }
 
 .form-group .btn-input:link {
@@ -694,7 +695,7 @@ textarea {
   }
 
   .back-deskt {
-    background: url(/images/contact\ form\ background\ shapes.svg);
+    background: url(./images/contact-form-background-shapes.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -712,4 +713,6 @@ textarea {
   .border-line {
     display: none;
   }
+
+
 }
