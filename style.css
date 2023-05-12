@@ -15,7 +15,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0 auto;
-  background-color: #676161;
+  background-color: #fffcfc;
 }
 
 /* ------main------ */
@@ -126,31 +126,43 @@ p {
   margin: auto;
 }
 
-.card-content {
+.card-content-mob {
   display: flex;
   flex-direction: column;
-  margin: 0 24px 24px 24px;
+  margin: 0 0 1.5rem 1.7rem;
   gap: 12px;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  margin: 4rem 1rem;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   gap: 3rem;
   background-color: #fff;
   box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease-in-out;
+  width: 80%;
+  margin: 3rem auto;
 }
 
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 .image-mob {
-  margin: 1.5rem 1.5rem 0 1.5rem;
+  margin: 1.5rem 1rem 0 1.5rem;
+  width: 90%;
+}
+
+.desktop-image {
+  visibility: hidden;
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+.mobile-hide {
+  visibility: hidden;
+  position: absolute;
 }
 
 .tonic {
@@ -474,13 +486,14 @@ textarea {
 }
 
 .form-group input {
-  background-color: #fff;
+  background-color: #fdfafa;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   width: 100%;
   height: 48px;
   margin-bottom: 12px;
   padding: 16px;
+  color: #172b4d;
 }
 
 .form-group textarea {
@@ -491,6 +504,7 @@ textarea {
   height: 140px;
   margin-bottom: 4px;
   padding: 20px;
+  color: rgb(43, 41, 41);
 }
 
 .form-group .btn-input {
@@ -619,17 +633,33 @@ textarea {
     margin: 1rem 9rem;
   }
 
-  .image {
-    width: 80%;
-    height: 92%;
+  .card-content-deskt {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 3rem;
+    gap: 12px;
   }
 
-  .works {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-flow: row;
-    align-items: stretch;
-    width: 90%;
+  .image-mob {
+    display: none;
+  }
+
+  .desktop-image {
+    width: 100%;
+    height: 90%;
+    visibility: visible;
+    position: static;
+    margin: 2rem;
+  }
+
+  .desktop-hide {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .desktop-show {
+    visibility: visible;
+    position: static;
   }
 
   .card-desk {
@@ -638,8 +668,39 @@ textarea {
   }
 
   .card-hero {
-    margin-top: 3rem;
+    margin: 3rem;
     margin-left: -1rem;
+    width: 100%;
+  }
+
+  .card-desk2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card-hero2 {
+    margin-top: 3rem;
+    margin-right: 1rem;
+  }
+
+  .card-desk3 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-hero3 {
+    margin: 3rem;
+    margin-left: -1rem;
+  }
+
+  .card-desk4 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card-hero4 {
+    margin-top: 3rem;
+    margin-right: 1rem;
   }
 
   .ton {
@@ -650,13 +711,17 @@ textarea {
     color: #091e42;
   }
 
-  .card-hero .btn {
-    margin-bottom: 12rem;
+  .card-hero,
+  .card-hero2,
+  .card-hero3,
+  .card-hero4,
+  .btn {
+    margin-bottom: 10rem;
   }
 
   .pa {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: #344563;
@@ -697,7 +762,7 @@ textarea {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    border-radius: 60px 0 0 0;
+    border-radius: 120px 0 0 0;
     background-color: #6070ff;
   }
 
@@ -710,5 +775,9 @@ textarea {
 
   .border-line {
     display: none;
+  }
+
+  .form-group .btn-input {
+    display: inline-block;
   }
 }
