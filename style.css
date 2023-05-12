@@ -141,13 +141,12 @@ p {
   border-radius: 16px;
   gap: 3rem;
   background-color: #fff;
-  box-shadow: 15px  20px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease-in-out;
 }
 
 .card:hover {
   transform: scale(1.1);
-
 }
 
 .image-mob {
@@ -507,7 +506,6 @@ textarea {
   font-weight: 500;
   font-size: 17px;
   line-height: 1.5rem;
-  ;
 }
 
 .form-group .btn-input:link {
@@ -713,6 +711,4 @@ textarea {
   .border-line {
     display: none;
   }
-
-
 }
