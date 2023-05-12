@@ -15,15 +15,24 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0 auto;
-  width: 375px;
   background-color: #676161;
 }
 
 /* ------main------ */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  margin: 0 auto;
+}
 
 #header {
-  display: flex;
-  flex-direction: column;
   background-color: #fff;
 }
 
@@ -33,15 +42,11 @@ main {
 }
 
 .navbar {
-  padding: 24px 24px;
+  margin: 1.5rem 2rem;
 }
 
 .nav-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  list-style-type: none;
+  display: none;
 }
 
 .logotext {
@@ -52,6 +57,7 @@ main {
   text-decoration: none;
   line-height: 20px;
   font-style: normal;
+  margin: 0 24px;
 }
 
 /* ------Headline------ */
@@ -60,6 +66,7 @@ main {
   flex-direction: column;
   background-image: url(./images/header-shapes\ mobile.svg);
   background-repeat: no-repeat;
+  background-size: 100vw;
   background-color: white;
   border-radius: 0 0 0 60px;
 }
@@ -89,7 +96,7 @@ p {
   margin-top: 5%;
 }
 
-#connect {
+.connect {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -99,7 +106,7 @@ p {
 }
 
 .social-icons {
-  margin-top: 5%;
+  margin-top: 1rem;
 }
 
 #icons {
@@ -117,24 +124,27 @@ p {
   display: grid;
   grid-template-rows: repeat(1, 1fr);
   margin: auto;
-  width: 375px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px 24px 24px;
+  gap: 12px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  margin: 16px;
+  margin: 1rem;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  gap: 12px;
+  gap: 3rem;
   background-color: #fff;
 }
 
-.head-image {
-  display: flex;
-  flex-direction: column;
-  margin: 24px;
-  gap: 12px;
+.image-mob {
+  margin: 1.5rem 1.5rem 0 1.5rem;
 }
 
 .tonic {
@@ -334,6 +344,32 @@ li {
   margin-right: -28px;
 }
 
+.underline-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 24px -28px 24px 0;
+  gap: 12px;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.underline-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 36px -28px 24px 0;
+  gap: 12px;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.chevron {
+  margin-right: -16px;
+}
+
+.frame-skills {
+  margin-bottom: 17.2rem;
+}
+
 .cont-frame {
   display: flex;
   flex-direction: row;
@@ -364,31 +400,14 @@ h4 {
   line-height: 20px;
 }
 
-.underline-frame {
-  border-bottom: 1px solid #dfe1e6;
-  background-color: #fff;
-  margin: 36px 24px;
-  padding-bottom: 23px;
-}
-
-.underline-skills {
-  border-bottom: 1px solid #dfe1e6;
-  background-color: #fff;
-  margin: 0 24px;
-  padding-bottom: 23px;
-}
-
-.frame-skills {
-  margin-bottom: 17.2rem;
-}
-
 /* ------Contact Section------ */
 
-#contact-section {
+.contact-section {
   display: flex;
   flex-direction: column;
-  background: url(/images/contact\ form\ shapes-mobile2.svg);
+  background: url(./images/contact\ form\ shapes-mobile2.svg);
   background-repeat: no-repeat;
+  background-size: 85% 91%;
   background-position-y: 21px;
   background-position-x: 152px;
   border-radius: 60px 0 0 0;
@@ -509,5 +528,181 @@ textarea {
   width: 40.85%;
   margin: 1.5rem auto 0.75rem auto;
   border-radius: 0.5rem;
-  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    margin: 0 10vw;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    z-index: 1;
+    background-color: transparent;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .hamburguer {
+    display: none;
+  }
+
+  .item-styles {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .item-styles:hover {
+    color: #6070ff;
+  }
+
+  #headline {
+    display: flex;
+    flex-direction: column;
+    background: url(./images/Header\ bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 0 0 0 60px;
+    background-color: #fff;
+  }
+
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20vw 10vw;
+  }
+
+  .social-deskt {
+    gap: 1rem;
+    margin: 2rem 9rem;
+  }
+
+  #icons {
+    margin-top: 2rem;
+  }
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.1rem;
+    line-height: 3.75rem;
+    color: #172b4d;
+    margin-left: 9rem;
+  }
+
+  .main-text p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 1rem 9rem;
+  }
+
+  .image {
+    width: 80%;
+    height: 92%;
+  }
+
+  .works {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-flow: row;
+    align-items: stretch;
+    width: 90%;
+  }
+
+  .card-desk {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-hero {
+    margin-top: 3rem;
+    margin-left: -1rem;
+  }
+
+  .ton {
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 44px;
+    color: #091e42;
+  }
+
+  .card-hero .btn {
+    margin-bottom: 12rem;
+  }
+
+  .pa {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  #about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: row;
+    justify-items: space-around;
+    align-items: first baseline;
+  }
+
+  .main-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 8vw 7vw;
+  }
+
+  .final-stack {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .stack-deskt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 13rem;
+    background-color: #f7f7f9;
+  }
+
+  .back-deskt {
+    background: url(/images/contact\ form\ background\ shapes.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 60px 0 0 0;
+    background-color: #6070ff;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 8vw 32vw;
+  }
+
+  .border-line {
+    display: none;
+  }
 }
