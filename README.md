@@ -86,6 +86,7 @@
 - **[Contact Form Section]**
 - **[Flexbox and Grid to  Design flexible responsive layout structure]**
 - **[Mobil First Design ]**
+- **[Deskto Version Design ]**
 - **[Follow GitHub Flow]**
 - **[Use Linters]**
 
@@ -204,6 +205,7 @@ JEYSSON CONTRERAS
 - [ ] **[About-section]**
 - [ ] **[Contact-form]**
 - [ ] **[Mobile first]**
+- [ ] **[Desktop version]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
