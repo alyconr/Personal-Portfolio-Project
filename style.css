@@ -136,11 +136,18 @@ p {
 .card {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  margin: 4rem 1rem;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   gap: 3rem;
   background-color: #fff;
+  box-shadow: 15px  20px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+
 }
 
 .image-mob {
