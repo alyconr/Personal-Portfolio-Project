@@ -556,6 +556,8 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
+  /* ------Header Desktop------ */
+
   .header-container {
     margin: 0 10vw;
     position: fixed;
@@ -591,6 +593,8 @@ textarea {
   .item-styles:hover {
     color: #6070ff;
   }
+
+  /* ------Healine Desktop------ */
 
   #headline {
     display: flex;
@@ -638,6 +642,7 @@ textarea {
     margin: 1rem 9rem;
   }
 
+  /* ------works Desktop------ */
   .card-content-deskt {
     display: flex;
     flex-direction: column;
@@ -757,6 +762,7 @@ textarea {
     color: #344563;
   }
 
+  /* ------about Desktop------ */
   #about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -787,6 +793,7 @@ textarea {
     background-color: #f7f7f9;
   }
 
+  /* ------contact Desktop------ */
   .back-deskt {
     background: url(./images/contact-form-background-shapes.png);
     background-repeat: no-repeat;
