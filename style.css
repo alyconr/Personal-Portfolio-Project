@@ -141,6 +141,7 @@ p {
   box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease-in-out;
   width: 90%;
+  height: 95%;
   margin: 3rem auto;
 }
 
@@ -153,7 +154,10 @@ p {
   width: 90%;
 }
 
-.desktop-image {
+.desktop-image,
+.desktop-image2,
+.desktop-image3,
+.desktop-image4 {
   visibility: hidden;
   display: block;
   width: 0;
@@ -273,6 +277,7 @@ li {
   flex-direction: column;
   background-color: #fff;
   border-radius: 0 60px 0 0;
+  margin-top: 5rem;
 }
 
 .main-about {
@@ -644,14 +649,6 @@ textarea {
     display: none;
   }
 
-  .desktop-image {
-    width: 43vw;
-    height: 90%;
-    visibility: visible;
-    position: static;
-    margin: 2rem;
-  }
-
   .desktop-hide {
     visibility: hidden;
     position: absolute;
@@ -668,9 +665,16 @@ textarea {
   }
 
   .card-hero {
-    margin: 3rem;
+    margin: 4rem;
     margin-left: -1rem;
-    width: 100%;
+  }
+
+  .desktop-image {
+    width: 42vw;
+    height: 90%;
+    visibility: visible;
+    position: static;
+    margin: 2rem;
   }
 
   .card-desk2 {
@@ -680,8 +684,16 @@ textarea {
 
   .card-hero2 {
     margin-top: 3rem;
-    margin-right: 1rem;
-    width: 100%;
+    margin-left: 3rem;
+    margin-right: -1rem;
+  }
+
+  .desktop-image2 {
+    width: 38vw;
+    height: 90%;
+    visibility: visible;
+    position: static;
+    margin: 2rem;
   }
 
   .card-desk3 {
@@ -691,7 +703,16 @@ textarea {
 
   .card-hero3 {
     margin: 3rem;
-    margin-left: -1rem;
+    margin-left: -2rem;
+  }
+
+  .desktop-image3 {
+    width: 42vw;
+    height: 90%;
+    visibility: visible;
+    position: static;
+    margin: 2rem;
+    align-items: center;
   }
 
   .card-desk4 {
@@ -700,8 +721,16 @@ textarea {
   }
 
   .card-hero4 {
-    margin-top: 3rem;
-    margin-right: 1rem;
+    margin-top: 4rem;
+    margin-right: -3rem;
+  }
+
+  .desktop-image4 {
+    width: 42vw;
+    height: 90%;
+    visibility: visible;
+    position: static;
+    margin: 2rem;
   }
 
   .ton {
