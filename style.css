@@ -140,7 +140,7 @@ p {
   background-color: #fff;
   box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease-in-out;
-  width: 80%;
+  width: 90%;
   margin: 3rem auto;
 }
 
@@ -215,7 +215,7 @@ li {
   font-size: 12px;
   line-height: 16px;
   background-color: #ebf0ff;
-  padding: 4px 12px;
+  padding: 4px 16px;
   border-radius: 8px;
 }
 
@@ -645,7 +645,7 @@ textarea {
   }
 
   .desktop-image {
-    width: 100%;
+    width: 43vw;
     height: 90%;
     visibility: visible;
     position: static;
@@ -681,6 +681,7 @@ textarea {
   .card-hero2 {
     margin-top: 3rem;
     margin-right: 1rem;
+    width: 100%;
   }
 
   .card-desk3 {
