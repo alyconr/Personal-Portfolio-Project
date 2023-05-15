@@ -123,7 +123,7 @@ p {
 #works {
   display: grid;
   grid-template-rows: repeat(1, 1fr);
-  margin: auto;
+  margin: 0 auto;
 }
 
 .card-content-mob {
@@ -139,8 +139,8 @@ p {
   gap: 3rem;
   background-color: #fff;
   box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease-in-out;
-  width: 80%;
+  transition: transform 0.9s ease-in-out;
+  width: 100%;
   margin: 3rem auto;
 }
 
@@ -552,7 +552,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .header-container {
-    margin: 0 10vw;
+    margin: 0 15rem;
     position: fixed;
     top: 0;
     width: 80%;
@@ -645,7 +645,7 @@ textarea {
   }
 
   .desktop-image {
-    width: 100%;
+    width: 50%;
     height: 90%;
     visibility: visible;
     position: static;
@@ -665,42 +665,47 @@ textarea {
   .card-desk {
     display: flex;
     flex-direction: row;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    gap: 3rem;
+    background-color: #fff;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out;
+    width: 80%;
+    height: 80%;
+    margin: 5rem auto;
   }
 
   .card-hero {
-    margin: 3rem;
-    margin-left: -1rem;
-    width: 100%;
+    margin-left: -2.5rem;
+    margin-top: 4rem;
   }
 
-  .card-desk2 {
+  .card-hero3 {
+    margin-left: -4.0rem;
+    margin-top: 4rem;
+  }
+
+  .flex-desk2 {
     display: flex;
     flex-direction: row-reverse;
   }
 
   .card-hero2 {
-    margin-top: 3rem;
-    margin-right: 1rem;
+    margin-top: 5rem;
+    margin-right: -5rem;
+    width: 100%;
   }
 
-  .card-desk3 {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .card-hero3 {
-    margin: 3rem;
-    margin-left: -1rem;
-  }
-
-  .card-desk4 {
+  .flesk-desk4 {
     display: flex;
     flex-direction: row-reverse;
   }
 
   .card-hero4 {
-    margin-top: 3rem;
-    margin-right: 1rem;
+    margin-top: 5rem;
+    margin-right: -5rem;
+    width: 100%;
   }
 
   .ton {
