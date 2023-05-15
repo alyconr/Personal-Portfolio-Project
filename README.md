@@ -96,11 +96,13 @@
 <!-- LIVE DEMO -->
 
 ### 🚀 Live Demo <a name="live-demo" ></a>
-![](https://i.imgur.com/nppe0wH.gif)
+
 
 > 
 
 - [Live Demo Link](https://alyconr.github.io/Personal-Portfolio-Project/)
+
+![](https://i.imgur.com/nppe0wH.gif)
 
 <!-- GETTING STARTED -->
 
