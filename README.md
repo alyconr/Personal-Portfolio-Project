@@ -89,16 +89,17 @@
 - **[Deskto Version Design ]**
 - **[Follow GitHub Flow]**
 - **[Use Linters]**
+- **[GitHub Pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+### 🚀 Live Demo <a name="live-demo" ></a>
 
-> Cooming soon
+> 
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://alyconr.github.io/Personal-Portfolio-Project/)
 
 <!-- GETTING STARTED -->
 
@@ -111,6 +112,7 @@ To get a local copy up and running, follow these steps.
 To run this project  you need the following tools:
 - [VS Code ]
 - [Git and GitHub ]
+- [GitHub Pages]
 - [Nodejs ]
 
 
@@ -189,7 +191,7 @@ JEYSSON CONTRERAS
 👤 **Author1**
 
 - GitHub: [@alyconr](https://github.com/alyconr)
-- LinkedIn: [LinkedIn](https://https://www.linkedin.com/in/jeysson-aly-contreras/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeysson-aly-contreras/)
 
 
 
