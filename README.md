@@ -220,7 +220,7 @@ JEYSSON CONTRERAS
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/alyconr/Hello-Microverse-Project/issues).
+Feel free to check the [issues page](https://github.com/alyconr/Personal-Portfolio-Project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
