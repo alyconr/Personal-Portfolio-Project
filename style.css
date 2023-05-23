@@ -684,14 +684,14 @@ textarea {
     background-color: #fff;
     box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease-in-out;
-    width: 90%;
-    height: 90%;
+    width: 80vw;
+    height: 85vh;
     margin: 4rem auto;
     padding: 1rem;
   }
 
   .card-content {
-    margin: -5rem 1rem 0 1rem;
+    margin: -1rem 1rem 0 1rem;
   }
 
   .card-reverse {
