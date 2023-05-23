@@ -670,8 +670,8 @@ textarea {
 
   .image-card {
     margin: 0 1rem 0 1.5rem;
-    width: 50%;
-    height: 90%;
+    width: 38vw;
+    height: 75vh;
   }
 
   .card {
@@ -690,12 +690,13 @@ textarea {
     padding: 1rem;
   }
 
-  .card-content {
-    margin: -11rem 1rem 0 1rem;
-  }
-
   .card-reverse {
     flex-direction: row-reverse;
+  }
+
+  .card-content {
+    width: 50vw;
+    height: 80vh;
   }
 
   .ton {
