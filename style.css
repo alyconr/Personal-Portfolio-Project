@@ -685,8 +685,8 @@ textarea {
     box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease-in-out;
     width: 90%;
-    height: 90%;
-    margin: 5rem auto;
+    height: 75vh;
+    margin: 4rem auto;
   }
 
   .card-content {
@@ -706,12 +706,12 @@ textarea {
     box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease-in-out;
     width: 90%;
-    height: 90%;
-    margin: 4rem auto;
+    height: 100%;
+    margin: 0 auto 2rem auto;
   }
 
   .ton {
-    font-size: 48px;
+    font-size: 3.2rem;
     font-weight: 700;
     font-style: normal;
     line-height: 44px;
