@@ -1,6 +1,7 @@
 /* ------Global Config------ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+/* ------Global Config------ */
 *,
 ::after,
 ::before {
@@ -26,9 +27,10 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 60px;
+  height: 50px;
   z-index: 1;
   margin: 0 auto;
+  padding: 1rem 1rem;
 }
 
 #header {
@@ -36,14 +38,19 @@ body {
 }
 
 /* ------Header------ */
+.logo-personal {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: -5.5rem 0 0 1rem;
+}
+
 main {
   background-color: #e5e5e5;
 }
 
-.logo {
-  width: 100px;
-  height: 70px;
-  margin-top: -1rem;
+.navbar {
+  margin: 1.5rem 2rem;
 }
 
 .nav-list {
@@ -64,7 +71,7 @@ main {
 }
 
 .nav-list.active,
-a {
+.item-styles {
   display: block;
   margin: 2rem 0 0 0;
   text-align: justify;
@@ -150,7 +157,7 @@ p {
 #works {
   display: grid;
   grid-template-rows: repeat(1, 1fr);
-  margin: 5rem;
+  margin: auto;
 }
 
 .card-content-mob {
@@ -589,28 +596,26 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+    margin: -1rem auto;
     position: fixed;
     top: 0;
     width: 100%;
-    height: 70px;
+    height: 80px;
     z-index: 1;
     background-color: #fff;
   }
 
-  .logo {
-    width: 150px;
-    height: 100px;
-    margin: 0 0 0 10rem;
+  .logo-personal {
+    margin: -4rem 8rem;
   }
 
   .nav-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     gap: 3rem;
-    margin: -2rem 12rem 0 0;
+    margin: -1rem 10rem;
   }
 
   .hamburguer {
