@@ -40,18 +40,21 @@
 
 # 📖 [PERSONAL PORTFOLIO PROJECT] <a name="about-project"></a>
 
-  **[Personal Portfolio Project]** This is a personal portfolio project where I have implemented the main features of the project using images and backgrounds from Figma template, I have used  the  main concepts of flexbox layout to design a flexbox responsive layout structure acording to the methodology 'Mobil first'.
+  **[Personal Portfolio Project]** This is a personal portfolio project where I have implemented the main features of the project using images and backgrounds from Figma template, I have used  the  main concepts of flexbox layout to design a flexbox responsive layout structure acording to the methodology 'Mobil first'. I have applied the best html, css and javascript code practices. 
 
 ## 🛠 Built With <a name="built-with"></a>
 <p> This project was built using:
-    HTML, CSS.
+    HTML, CSS and JAVASCRIPT
 </p>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <li> HTML </li>
 <li> CSS </li>
+<li> Javascript </li>
 <li> Git </li>
+
+
 
 <details>
   <summary>Client</summary>
@@ -61,9 +64,16 @@
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Styles</summary>
   <ul>
     <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Language</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">CSS</a></li>
   </ul>
 </details>
 
@@ -87,6 +97,7 @@
 - **[Flexbox and Grid to  Design flexible responsive layout structure]**
 - **[Mobil First Design ]**
 - **[Deskto Version Design ]**
+- **[Mobile Menu ]**
 - **[Follow GitHub Flow]**
 - **[Use Linters]**
 - **[GitHub Pages]**
@@ -155,6 +166,12 @@ Stylelint:
      npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
 
+Eslint
+```sh
+     npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
+
+
 
 ### Usage
 
@@ -175,11 +192,15 @@ To test the Webhint:
 ```sh
     npx hint .
 ```
+To test the ESLint linter:
+```sh
+    npx eslint .
+```
 
 
 ### Deployment
 
-You can deploy this project usinr your local enviroment.
+You can deploy this project using your local enviroment.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -210,6 +231,7 @@ JEYSSON CONTRERAS
 - [ ] **[Contact-form]**
 - [ ] **[Mobile first]**
 - [ ] **[Desktop version]**
+- [ ] [ ] **[Mobile Menu]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
