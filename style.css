@@ -733,7 +733,7 @@ textarea {
     grid-auto-flow: row;
     justify-items: space-around;
     align-items: first baseline;
-    margin: 6rem auto; 
+    margin: 6rem auto;
   }
 
   .main-about {
