@@ -6,15 +6,10 @@ export default function generateCards() {
   cardInfo.forEach((data, i) => {
     const cardFront = template(data, i);
     const cardReverse = revTemplate(data, i);
-    
-   if(data.reverse === true){
-    cardContainer.innerHTML += cardReverse;
-    }else{
-        cardContainer.innerHTML += cardFront;
-        }
-
-
+    if (data.reverse === true) {
+      cardContainer.innerHTML += cardReverse;
+    } else {
+      cardContainer.innerHTML += cardFront;
+    }
   });
 }
-
-
