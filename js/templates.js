@@ -14,9 +14,7 @@ const template = (data, index) => `
               ${data.description}
             </p>
             <ul class='stacks'>
-              ${data.stacks
-                .map((stack) => `<li class='stack-over'>${stack}</li>`)
-                .join('')}
+              ${data.stacks.map((stack) => `<li class='stack-over'>${stack}</li>`).join('')}
             </ul>
             <a href='#' content-id='${index}' class='btn'>See Project</a>
           </div>
@@ -39,9 +37,7 @@ const revTemplate = (data, index) => `
               ${data.description}
             </p>
             <ul class='stacks'>
-              ${data.stacks
-                .map((stack) => `<li class='stack-over'>${stack}</li>`)
-                .join(' ')}
+              ${data.stacks.map((stack) => `<li class='stack-over'>${stack}</li>`).join(' ')}
             </ul>
             <a href='#' content-id='${index}' class='btn'>See Project</a>
           </div>
