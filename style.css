@@ -62,7 +62,7 @@ main {
   background: rgba(96, 112, 255, 0.9);
   width: 100%;
   height: 100vh;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(1px);
   padding: 8rem 2rem;
 }
 
