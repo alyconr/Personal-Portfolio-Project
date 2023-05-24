@@ -590,6 +590,10 @@ textarea {
     margin: -4rem 8rem;
   }
 
+  .navbar.active {
+    visibility: hidden;
+  }
+
   .nav-list {
     display: flex;
     flex-direction: row;
@@ -696,7 +700,6 @@ textarea {
 
   .card-content {
     height: 70vh;
-   
   }
 
   .ton {
