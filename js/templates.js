@@ -8,12 +8,7 @@ const template = (data, index) => `
           <div class="card-content">
             <h2 class="tonic ton">${data.title}</h2>
             <ul class="dates">
-                ${data.dates
-                  .map(
-                    (date) => `<li>${date}</li> 
-                   `
-                  )
-                  .join("")}
+                ${data.dates.map((date) => `<li>${date}</li>`).join("")}
             </ul>
             <p class="paragraph">
               ${data.description}
@@ -21,12 +16,13 @@ const template = (data, index) => `
             <ul class="stacks">
               ${data.stacks
                 .map((stack) => `<li class="stack-over">${stack}</li>`)
-                .join(" ")}
+                .join("")}
             </ul>
             <a href="#" content-id="${index}" class="btn">See Project</a>
           </div>
           </div>
-   `;
+    `;
+
 const revTemplate = (data, index) => `
 <div class=" card card-reverse  ">
     <img
@@ -37,12 +33,7 @@ const revTemplate = (data, index) => `
           <div class="card-content">
             <h2 class="tonic ton">${data.title}</h2>
             <ul class="dates">
-                ${data.dates
-                  .map(
-                    (date) => `<li>${date}</li> 
-                   `
-                  )
-                  .join("")}
+                ${data.dates.map((date) => `<li>${date}</li> `).join("")}
             </ul>
             <p class="paragraph">
               ${data.description}
@@ -55,6 +46,6 @@ const revTemplate = (data, index) => `
             <a href="#" content-id="${index}" class="btn">See Project</a>
           </div>
           </div>
-   `;
+      `;
 
 export { template, revTemplate };
