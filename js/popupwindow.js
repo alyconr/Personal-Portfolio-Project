@@ -1,5 +1,7 @@
 import cardInfo from './data.js';
-import { modalWindow } from './templates.js';
+import {
+  modalWindow
+} from './templates.js';
 
 export default function popUpWindow() {
   const cardContainer = document.querySelector('.modal-container');
@@ -15,18 +17,16 @@ export default function popUpWindow() {
 
   const overlay = document.querySelector('.overlay');
 
-  buttonModal.forEach((button) => {
+  buttonModal.forEach((button, index) => {
     button.addEventListener('click', (event) => {
-      const modal = document.querySelector('.open-modal');
       event.preventDefault();
-      modal.classList.toggle('active');
+      openModal[index].classList.toggle('active');
       overlay.classList.toggle('active');
     });
   });
 
   openModal.forEach((modal) => {
-    modal.addEventListener('click', (event) => {
-      event.preventDefault();
+    modal.addEventListener('click', () => {
       modal.classList.remove('active');
       overlay.classList.remove('active');
     });

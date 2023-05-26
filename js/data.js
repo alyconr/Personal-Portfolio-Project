@@ -6,7 +6,7 @@ const cardInfo = [{
   dates: ['CANOPI', 'BACKEND', '2015'],
   description: 'A daily selection of privately personalized reads; no accounts or        sign-ups required, A daily selection of privately personalized reads; no accounts or        sign-ups required.',
   stacks: ['HTML', 'CSS', 'Javascript'],
-  demoLive: 'https://alyconr.github.io/personal-portfolio-project/',
+  demoLive: 'https://deploy-preview-8--gregarious-crumble-a9963b.netlify.app/#works',
   sourceCode: 'https://github.com/alyconr/personal-portfolio-project',
 },
 {
