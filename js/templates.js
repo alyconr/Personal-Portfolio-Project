@@ -49,7 +49,7 @@ const revTemplate = (data, i) => `
             <ul class='stacks'>
               ${data.stacks
                 .map((stack) => `<li class='stack-over'>${stack}</li>`)
-                .join(" ")}
+                .join('')}
             </ul>
             <a href='#' data-content-id=${i}  class='btn btn-modal'>See Project</a>
           </div>
