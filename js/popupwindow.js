@@ -17,15 +17,17 @@ export default function popUpWindow() {
   const overlay = document.querySelector(".overlay");
 
   buttonModal.forEach((button) => {
-    button.addEventListener("click", () => {
+    button.addEventListener("click", (event) => {
       const modal = document.querySelector(".open-modal");
+      event.preventDefault();
       modal.classList.toggle("active");
       overlay.classList.toggle("active");
     });
   });
 
   openModal.forEach((modal) => {
-    modal.addEventListener("click", () => {
+    modal.addEventListener("click", (event) => {
+      event.preventDefault();
       modal.classList.remove("active");
       overlay.classList.remove("active");
     });
