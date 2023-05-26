@@ -9,18 +9,18 @@ const template = (data, i) => `
             <h2 class='tonic ton'>${data.title}</h2>
             <ul class='dates'>
                 ${data.dates
-                  .map((date) => `<li>${date}</li>`)
-                  .join(
-                    '<li><img src="./images/bullet.svg" alt="counter" /></li>'
-                  )} 
+    .map((date) => `<li>${date}</li>`)
+    .join(
+      '<li><img src="./images/bullet.svg" alt="counter" /></li>',
+    )} 
             </ul>
             <p class='paragraph'>
               ${data.description}
             </p>
             <ul class='stacks'>
               ${data.stacks
-                .map((stack) => `<li class='stack-over'>${stack}</li>`)
-                .join("")}
+    .map((stack) => `<li class='stack-over'>${stack}</li>`)
+    .join('')}
             </ul>
             <a href='#' data-content-id=${i}  class='btn btn-modal'>See Project</a>
           </div>
@@ -38,18 +38,18 @@ const revTemplate = (data, i) => `
             <h2 class='tonic ton'>${data.title}</h2>
             <ul class='dates'>
                 ${data.dates
-                  .map((date) => `<li>${date}</li>`)
-                  .join(
-                    '<li><img src="./images/bullet.svg" alt="counter" /></li>'
-                  )}
+    .map((date) => `<li>${date}</li>`)
+    .join(
+      '<li><img src="./images/bullet.svg" alt="counter" /></li>',
+    )}
             </ul>
             <p class='paragraph'>
               ${data.description}
             </p>
             <ul class='stacks'>
               ${data.stacks
-                .map((stack) => `<li class='stack-over'>${stack}</li>`)
-                .join('')}
+    .map((stack) => `<li class='stack-over'>${stack}</li>`)
+    .join('')}
             </ul>
             <a href='#' data-content-id=${i}  class='btn btn-modal'>See Project</a>
           </div>
@@ -61,8 +61,8 @@ const modalWindow = (data) => `
           <h2 class='tonic ton'>${data.title}</h2>
             <ul class='dates'>
             ${data.dates
-              .map((date) => `<li>${date}</li>`)
-              .join('<li><img src="./images/bullet.svg" alt="counter" /></li>')}
+    .map((date) => `<li>${date}</li>`)
+    .join('<li><img src="./images/bullet.svg" alt="counter" /></li>')}
             </ul>
             <img
             src='${data.imagePath}'
@@ -76,8 +76,8 @@ const modalWindow = (data) => `
       <div class="final-details">
           <ul class='stacks'>
           ${data.stacks
-            .map((stack) => `<li class='stack-over'>${stack}</li>`)
-            .join(" ")}
+    .map((stack) => `<li class='stack-over'>${stack}</li>`)
+    .join(' ')}
             </ul>
           <div class='button-stack'>
             <a href='${data.demoLive}' class='btn demo'>See Live
@@ -94,7 +94,7 @@ const modalWindow = (data) => `
 `;
 
 export {
-   template,
-   revTemplate,
-   modalWindow
+  template,
+  revTemplate,
+  modalWindow,
 };
