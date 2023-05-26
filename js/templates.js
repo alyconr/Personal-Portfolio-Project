@@ -1,4 +1,4 @@
-const template = (data, i) => `
+const template = (data, index) => `
 <div class= 'card '>
     <img
             src='${data.imagePath}'
@@ -22,12 +22,12 @@ const template = (data, i) => `
     .map((stack) => `<li class='stack-over'>${stack}</li>`)
     .join('')}
             </ul>
-            <a href='#' data-content-id=${i}  class='btn btn-modal'>See Project</a>
+            <a href='#' data-id=${index}  class='btn btn-modal'>See Project</a>
           </div>
           </div>
     `;
 
-const revTemplate = (data, i) => `
+const revTemplate = (data, index) => `
 <div class=' card card-reverse  '>
     <img
             src='${data.imagePath}'
@@ -51,7 +51,7 @@ const revTemplate = (data, i) => `
     .map((stack) => `<li class='stack-over'>${stack}</li>`)
     .join('')}
             </ul>
-            <a href='#' data-content-id=${i}  class='btn btn-modal'>See Project</a>
+            <a href='#' data-id=${index}  class='btn btn-modal'>See Project</a>
           </div>
           </div>
       `;
