@@ -14,7 +14,23 @@ export default function popUpWindow() {
     const openModal = document.querySelectorAll(".open-modal");
     const buttonModal = document.querySelectorAll(".btn-modal");
   
-   
+    const overlay = document.querySelector(".overlay");
+
+    buttonModal.forEach((button) => {
+    button.addEventListener("click", () => {
+        const modal = document.querySelector(".open-modal");
+        modal.classList.toggle("active");
+        overlay.classList.toggle("active");
+    });
+    }); 
+
+    openModal.forEach((modal) => {
+    modal.addEventListener("click", () => {
+        modal.classList.remove("active");
+        overlay.classList.remove("active");
+    });
+    }
+    );
 
 
 }
