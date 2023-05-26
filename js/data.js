@@ -4,7 +4,7 @@ const cardInfo = [{
   title: 'TONIC',
   reverse: false,
   dates: ['CANOPI', 'BACKEND', '2015'],
-  description: 'A daily selection of privately personalized reads; no accounts or        sign-ups required, A daily selection of privately personalized reads; no accounts or        sign-ups required A daily selection of privately personalized reads; no accounts or        sign-ups required A daily selection of privately personalized reads; no accounts or        sign-ups required A daily selection of privately personalized reads; no accounts or        sign-ups required',
+  description: 'A daily selection of privately personalized reads; no accounts or        sign-ups required, A daily selection of privately personalized reads; no accounts or        sign-ups required.',
   stacks: ['HTML', 'CSS', 'Javascript'],
   demoLive: 'https://alyconr.github.io/personal-portfolio-project/',
   sourceCode: 'https://github.com/alyconr/personal-portfolio-project',
