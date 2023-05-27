@@ -4,7 +4,7 @@ function validateForm(event) {
   const emailInput = document.getElementById('email');
   const lowercaseEmail = emailInput.value.toLowerCase(); // Convert email to lowercase
 
-  // Check if the email is empty or not in lowercase
+  // Check if the email is empty or not in lowercase or isnt the same as the original email
   if (!lowercaseEmail || lowercaseEmail !== emailInput.value) {
     const emailError = document.getElementById('emailError');
     if (!lowercaseEmail) {
@@ -12,7 +12,7 @@ function validateForm(event) {
     } else {
       emailError.textContent = 'Please enter the email address in lowercase.';
     }
-    emailError.style.display = 'block';
+    emailError.style.display = 'block'; // Show the error message
     return; // Stop the form submission
   }
 
