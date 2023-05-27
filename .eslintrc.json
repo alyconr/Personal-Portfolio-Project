@@ -16,6 +16,7 @@
       "eol-last": "off",
       "comma-dangle": "off",
       "linebreak-style": 0,
+      "object-shorthand": 0,
       "import/extensions": [ 1, {
         "js": "always", "json": "always"
       }]
