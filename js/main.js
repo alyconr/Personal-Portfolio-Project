@@ -9,8 +9,3 @@ mobileMenu();
 generateCards();
 popUpWindow();
 preserveData();
-
-
-
-
-
