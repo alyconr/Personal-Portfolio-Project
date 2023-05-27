@@ -1,6 +1,4 @@
 import cardInfo from './data.js';
-import { modalWindow } from './templates.js';
-import cardInfo from './data.js';
 import {
   modalWindow
 } from './templates.js';
@@ -29,8 +27,7 @@ export default function popUpWindow() {
   });
 
   openModal.forEach((modal) => {
-    modal.addEventListener('click', (event) => {
-      event.preventDefault();
+    modal.addEventListener('click', () => {
       modal.classList.remove('active');
       overlay.classList.remove('active');
     });
