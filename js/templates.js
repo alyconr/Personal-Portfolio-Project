@@ -80,10 +80,10 @@ const modalWindow = (data) => `
     .join(' ')}
             </ul>
           <div class='button-stack'>
-            <a href='${data.demoLive}' class='btn demo'>See Live
+            <a href='${data.demoLive}' class='btn '>See Live
               <img src='./images/demo.svg' alt='demo'>
             </a>
-            <a href='${data.sourceCode}' class='btn github'>See Source
+            <a href='${data.sourceCode}' class='btn '>See Source
               <img src='./images/githubpopup.svg' alt='github'>
              
             </a>

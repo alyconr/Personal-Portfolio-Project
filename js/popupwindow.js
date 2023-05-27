@@ -1,5 +1,9 @@
 import cardInfo from './data.js';
 import { modalWindow } from './templates.js';
+import cardInfo from './data.js';
+import {
+  modalWindow
+} from './templates.js';
 
 export default function popUpWindow() {
   const cardContainer = document.querySelector('.modal-container');
