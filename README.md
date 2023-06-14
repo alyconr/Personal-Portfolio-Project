@@ -110,7 +110,7 @@
 
 > 
 
-- [Live Demo Link](https://alyconr.github.io/Personal-Portfolio-Project/)
+- [Live Demo Link](https://alyconr-portfolio.netlify.app/)
 
 ![](https://i.imgur.com/nppe0wH.gif)
 
