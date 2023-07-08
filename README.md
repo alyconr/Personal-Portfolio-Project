@@ -98,6 +98,8 @@
 - **[Mobil First Design ]**
 - **[Deskto Version Design ]**
 - **[Mobile Menu ]**
+- **[Popup Window ]**
+- **[Validation Email ]**
 - **[Follow GitHub Flow]**
 - **[Use Linters]**
 - **[GitHub Pages]**
